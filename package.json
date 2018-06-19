@@ -1,17 +1,25 @@
 {
-  "name": "smart-home-test",
+  "name": "auth_server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "express": "^4.16.1",
-    "morgan": "^1.9.0",
-    "mosca": "^2.7.0"
+    "mosca": "^2.7.0",
+    "morgan": "^1.9.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anas-siddiqui/auth_server.git"
   },
   "author": "",
-  "license": "MIT"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anas-siddiqui/auth_server/issues"
+  },
+  "homepage": "https://github.com/Anas-siddiqui/auth_server#readme"
 }
