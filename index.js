@@ -32,7 +32,7 @@ app.post('/smarthome', function (req, res) {
     res.json({status:'all ok'});
 });
 
-app.listen(8080, function () {
+app.listen(3000, function () {
     console.log('express server is now running on port: ')
 })
 
