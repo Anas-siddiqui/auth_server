@@ -1,25 +1,27 @@
 {
-  "name": "auth_server",
+  "name": "gps_skill",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
-    "express": "^4.16.1",
-    "mosca": "^2.7.0",
-    "morgan": "^1.9.0"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "request": "^2.83.0"
   },
   "devDependencies": {},
   "scripts": {
-   "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anas-siddiqui/auth_server.git"
+    "url": "git+https://github.com/Anas-siddiqui/gps_skill.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Anas-siddiqui/auth_server/issues"
+    "url": "https://github.com/Anas-siddiqui/gps_skill/issues"
   },
-  "homepage": "https://github.com/Anas-siddiqui/auth_server#readme"
+  "homepage": "https://github.com/Anas-siddiqui/gps_skill#readme"
 }
